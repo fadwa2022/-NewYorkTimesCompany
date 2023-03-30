@@ -1,19 +1,13 @@
-# NewYorkTimesCompany
-## Installation de l'application
-### Prérequis
-* PHP 8.2 ou supérieur
-* MySQL 5.7 ou supérieur
-* Apache ou Nginx
-### Étapes d'installation
+#New York Times Company Website
+##Description
+Ce projet est une réplique du site Web de la société New York Times, construit avec WordPress et l'extension Elementor.
 
-1.Installation de WordPress.
-2.Créez une nouvelle base de données MySQL et un utilisateur avec des privilèges pour cette base de données.
-3.Dupliquez le fichier .env.example et renommez-le en .env.
-4.Modifiez les paramètres de la base de données dans le fichier .env pour qu'ils correspondent à ceux de votre environnement de développement.
-5.Ouvrez une console de commande et naviguez vers le répertoire de l'application.
-6.Exécutez la commande composer install pour installer les dépendances.
-7.Exécutez la commande php artisan key:generate pour générer une nouvelle clé de sécurité pour l'application.
-8.Exécutez la commande php artisan migrate pour créer les tables de la base de données.
-9.Exécutez la commande php artisan serve pour lancer le serveur web intégré.
+##Installation
+Téléchargez le fichier zip de WordPress et décompressez-le dans le dossier que vous avez cloné à partir de cette repository dans le dossier "htdocs" de XAMPP.
 
+Créez une base de données nommée "NewYorkTimesCompany" et connectez-la avec le dossier "NewYorkTimesCompany" en suivant les étapes de WordPress.
 
+Installez l'extension Elementor pour faciliter la création des pages.
+
+##Pages
+Le projet contient trois pages : "Home", "Company" et "Journalism". La navbar et le footer ont également été créés.
